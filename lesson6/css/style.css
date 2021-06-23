@@ -221,8 +221,6 @@ address {
 /* フッターの中身 */
 
 .footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 660px;
   margin: 0 auto;
@@ -231,8 +229,6 @@ address {
 /* フッターロゴ（左側） */
 
 .footer-logo {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 200px;
   flex: 0 1 200px;
   max-width: 200px;
   margin: 0;
@@ -241,8 +237,6 @@ address {
 /* フッター その他要素（右側） */
 
 .footer-body {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
   padding-top: 20px;
 }
